@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Submit Your Cryptid Sighting</title>
+		<link rel="stylesheet" type="text/css" href="style/form.css" />
+		<link type="text/css" href="jquery-ui-1.10.4.custom/css/sunny/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+<style>
+  ul { list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; }
+  li { margin: 5px; padding: 5px; width: 150px; }
+  </style>
+	</head>
+	<body>
+		
+	<div class="ui-widget-content form_pad">
+			<h3>Date of Sighting:</h3>
+				<input  type="text" name="sighting_date" id="datepicker" />/div>
+
+<div id="drag_drop">
+<ul>
+  <li id="draggable" class="ui-state-highlight">Drag me down</li>
+</ul>
+ 
+<ul id="sortable">
+  <li class="ui-state-default">Item 1</li>
+  <li class="ui-state-default">Item 2</li>
+  <li class="ui-state-default">Item 3</li>
+  <li class="ui-state-default">Item 4</li>
+  <li class="ui-state-default">Item 5</li>
+</ul>
+</div>
+
+<div id="spinner_div">
+<p>
+  <label for="spinner">Select a value:</label>
+  <input id="spinner" name="value">
+</p>
+
+<p>
+<button id="disable">Toggle disbale/enable</button>
+<button id="destroy">Toggle widget</button>
+</p>
+
+<p>
+<button id="getvalue">Get value</button>
+<button id="setvalue">Set Value</button>
+</p></div>
+		<script src="scripts/jquery-1.10.2.js"></script> 
+		<script src="scripts/my_scripts.js"></script>
+		<script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
+	</body>
+</html>
